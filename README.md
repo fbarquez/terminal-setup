@@ -181,7 +181,7 @@ source ~/.zshrc
 ### Full Weather Forecast
 Get multi-day forecast with morning, noon, evening, and night reports — all based on your actual location.
 
-![Weather Forecast Demo](assets/screenshots/weather_forecast.png)
+![Weather Forecast Demo](assets/screenshots/weather.png)
 
 ---
 

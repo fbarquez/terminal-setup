@@ -1,23 +1,43 @@
 
-````markdown
 # Terminal Setup by fbarquez
 
-A customizable and interactive Zsh terminal dashboard, designed to improve focus, productivity, and provide meaningful daily context every time you open your terminal.
+[![MIT License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
+[![Shell](https://img.shields.io/badge/shell-zsh-informational)](#)
+[![Built With](https://img.shields.io/badge/built%20with-love-red)](#)
 
-This script configures your Zsh shell with a sleek Powerlevel10k theme, weather forecast, motivational quotes, real-time news headlines, and more — all shown automatically at startup.
+---
+
+## Table of Contents
+
+- [Features](#features)
+- [Preview](#preview)
+- [Project Structure](#project-structure)
+- [How to Use](#how-to-use)
+- [What's Inside install.sh](#whats-inside-installsh)
+- [Customization](#customization)
+- [Tested On](#tested-on)
+- [Contributing](#contributing)
+- [License](#license)
+- [Author](#author)
+
+---
+
+A customizable and interactive Zsh terminal dashboard that helps you stay focused, boost productivity, and start each session with useful, meaningful context.
+
+This script sets up your Zsh shell with a sleek Powerlevel10k theme, live weather, motivational quotes, real-time news headlines, and more, all displayed automatically at startup
 
 ---
 
 ## Features
 
-- Detects your real-time location (via IP) and shows **local weather**
-- Fetches and displays a **motivational quote** at each startup
-- Displays **top news headlines** using the [GNews API](https://gnews.io/)
-- Shows a full interactive **terminal menu**
-- Smart layout using `boxes` for style and clarity
-- Detects if you're in an SSH session and logs each login
-- Logs terminal sessions with timestamps (optional)
-- Fully portable via an installation script (`install.sh`)
+- Detects your **exact physical location** to show accurate local weather 
+- Displays a daily **motivational quote** from ZenQuotes 
+- Fetches latest **news headlines** via [GNews API](https://gnews.io/)
+- Includes a **terminal dashboard layout** using `boxes` 
+- Detects **SSH sessions** and logs IP/date 
+-  Tracks sessions in `.terminal_log` (optional) 
+- Fully **portable** via `install.sh`
+
 
 ---
 
@@ -31,14 +51,7 @@ This script configures your Zsh shell with a sleek Powerlevel10k theme, weather 
 [✓] Local weather in Berlin :: 🌤 +18°C
 
 =====[ DAILY DOSE ]=====
-Start where you are. Use what you have. Do what you can. — Arthur Ashe
-
-=====[ TERMINAL MENU ]=====
-1) View top news headline
-2) View full weather report
-3) Skip and enter shell
-````
-
+Start where you are. Use what you have. Do what you can. 
 ---
 
 ## Project Structure
@@ -163,6 +176,22 @@ source ~/.zshrc
 
 ---
 
+## Screenshots
+
+### Full Weather Forecast
+Get multi-day forecast with morning, noon, evening, and night reports — all based on your actual location.
+
+![Weather Forecast Demo](assets/screenshots/weather_forecast.png)
+
+---
+
+### News Headlines by Topic
+Choose your favorite category and get the top news headline on each terminal startup.
+
+![News Topic Demo](assets/screenshots/news_topic.png)
+
+---
+
 ## Contributing
 
 If you want to improve this script or suggest a new feature, feel free to fork this repo or open an issue.
@@ -171,7 +200,9 @@ If you want to improve this script or suggest a new feature, feel free to fork t
 
 ## License
 
-This project is licensed under the MIT License. You are free to reuse and modify it with attribution.
+Feel free to fork this project, submit pull requests or suggest improvements via issues.
+
+If you’d like to add features (like new weather APIs, themes, or dashboard styles), open a discussion first. Let’s make it better together!
 
 ---
 
@@ -181,7 +212,4 @@ Made with by **[@fbarquez](https://github.com/fbarquez)**
 
 > “The terminal is not just a tool — it’s your command center.”
 
-````
-
 ---
-
